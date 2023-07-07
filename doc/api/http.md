@@ -3351,8 +3351,7 @@ changes:
 
 * `url` {string | URL}
 * `options` {Object} Accepts the same `options` as
-  [`http.request()`][], with the `method` always set to `GET`.
-  Properties that are inherited from the prototype are ignored.
+  [`http.request()`][], with the method set to GET by default.
 * `callback` {Function}
 * Returns: {http.ClientRequest}
 
