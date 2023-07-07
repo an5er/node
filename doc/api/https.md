@@ -296,7 +296,7 @@ changes:
 
 * `url` {string | URL}
 * `options` {Object | string | URL} Accepts the same `options` as
-  [`https.request()`][], with the method set to GET by default.
+  [`https.request()`][], with the `method` always set to `GET`.
 * `callback` {Function}
 
 Like [`http.get()`][] but for HTTPS.
